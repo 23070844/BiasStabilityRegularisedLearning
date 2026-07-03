@@ -82,3 +82,8 @@ Example:
 python main.py --gpuid $GPUID --repeat $REPEAT --model_type resnet --model_name TVResNet18_pretrained_freeze --force_out_dim 7 --no_class_remap --optimizer Adam --batch_size 64 --lr 0.0013701119904548946 --weight_decay 4.3364101535633925e-05 --schedule 18 --agent_type customization --agent_name ProposedFramework --target_acc 0.8306796965850811 --reg_coef 23.407671342306866 --lambda_bias 2.6460518189656517 --init_prune_rate 0.8530534334439579 --inc_prune_rate 0.5663349248336013 --alpha 0.5663349248336013 --prune_retrain_epochs 5 --category gender --skip_unsure True
 
 ```
+
+### Evaluation
+```
+python rafdb_eval_json.py
+```
